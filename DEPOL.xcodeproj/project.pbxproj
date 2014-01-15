@@ -25,6 +25,9 @@
 		00ABACD3187E9AE30082D5A1 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABACD2187E9AE30082D5A1 /* Portfolio.m */; };
 		00ABACD6187E9D300082D5A1 /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABACD5187E9D300082D5A1 /* Content.m */; };
 		00ABACD9187EA0FD0082D5A1 /* CareerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABACD8187EA0FD0082D5A1 /* CareerCategory.m */; };
+		00ABADC8187FE8D40082D5A1 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABADC7187FE8D40082D5A1 /* Cell.m */; };
+		00D5655D1883C8A000653B8D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D5655C1883C8A000653B8D /* libsqlite3.dylib */; };
+		00D5655F1883CBE100653B8D /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00D5655E1883CBE100653B8D /* db.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,10 @@
 		00ABACD5187E9D300082D5A1 /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
 		00ABACD7187EA0FD0082D5A1 /* CareerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CareerCategory.h; sourceTree = "<group>"; };
 		00ABACD8187EA0FD0082D5A1 /* CareerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareerCategory.m; sourceTree = "<group>"; };
+		00ABADC6187FE8D40082D5A1 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		00ABADC7187FE8D40082D5A1 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		00D5655C1883C8A000653B8D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		00D5655E1883CBE100653B8D /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D5655D1883C8A000653B8D /* libsqlite3.dylib in Frameworks */,
 				00ABAC9C187E94280082D5A1 /* CoreGraphics.framework in Frameworks */,
 				00ABAC9E187E94280082D5A1 /* UIKit.framework in Frameworks */,
 				00ABAC9A187E94280082D5A1 /* Foundation.framework in Frameworks */,
@@ -113,6 +121,7 @@
 		00ABAC98187E94280082D5A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00D5655C1883C8A000653B8D /* libsqlite3.dylib */,
 				00ABAC99187E94280082D5A1 /* Foundation.framework */,
 				00ABAC9B187E94280082D5A1 /* CoreGraphics.framework */,
 				00ABAC9D187E94280082D5A1 /* UIKit.framework */,
@@ -124,6 +133,7 @@
 		00ABAC9F187E94280082D5A1 /* DEPOL */ = {
 			isa = PBXGroup;
 			children = (
+				00D5655E1883CBE100653B8D /* db.sqlite */,
 				00ABACA8187E94280082D5A1 /* AppDelegate.h */,
 				00ABACA9187E94280082D5A1 /* AppDelegate.m */,
 				00ABACAB187E94280082D5A1 /* Main.storyboard */,
@@ -139,6 +149,8 @@
 				00ABACD5187E9D300082D5A1 /* Content.m */,
 				00ABACD7187EA0FD0082D5A1 /* CareerCategory.h */,
 				00ABACD8187EA0FD0082D5A1 /* CareerCategory.m */,
+				00ABADC6187FE8D40082D5A1 /* Cell.h */,
+				00ABADC7187FE8D40082D5A1 /* Cell.m */,
 			);
 			path = DEPOL;
 			sourceTree = "<group>";
@@ -251,6 +263,7 @@
 				00ABACB2187E94280082D5A1 /* Images.xcassets in Resources */,
 				00ABACA4187E94280082D5A1 /* InfoPlist.strings in Resources */,
 				00ABACAD187E94280082D5A1 /* Main.storyboard in Resources */,
+				00D5655F1883CBE100653B8D /* db.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00ABACD9187EA0FD0082D5A1 /* CareerCategory.m in Sources */,
+				00ABADC8187FE8D40082D5A1 /* Cell.m in Sources */,
 				00ABACD0187E9AC20082D5A1 /* User.m in Sources */,
 				00ABACD6187E9D300082D5A1 /* Content.m in Sources */,
 				00ABACD3187E9AE30082D5A1 /* Portfolio.m in Sources */,
@@ -484,6 +498,7 @@
 				00ABACCA187E94280082D5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00ABACCB187E94280082D5A1 /* Build configuration list for PBXNativeTarget "DEPOLTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +507,7 @@
 				00ABACCD187E94280082D5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
