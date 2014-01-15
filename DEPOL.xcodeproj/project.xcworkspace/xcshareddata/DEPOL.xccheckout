@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EE456263-DA00-4C6E-B2D7-4A816946DFCA</string>
+	<string>EE10744A-54F6-4B3B-BB71-96C912680660</string>
 	<key>IDESourceControlProjectName</key>
 	<string>DEPOL</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EFBAE37C-8242-4922-A9E6-C1318CFE0B27</key>
-		<string>https://github.com/hyunyoung158/ios.git</string>
+		<key>90FBD6DF-8141-4DE3-8E91-726CD5EF1892</key>
+		<string>https://github.com/hyunyoung158/DEPOL.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DEPOL/DEPOL.xcodeproj/project.xcworkspace</string>
+	<string>DEPOL.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EFBAE37C-8242-4922-A9E6-C1318CFE0B27</key>
-		<string>../../..</string>
+		<key>90FBD6DF-8141-4DE3-8E91-726CD5EF1892</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/hyunyoung158/ios.git</string>
+	<string>https://github.com/hyunyoung158/DEPOL.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EFBAE37C-8242-4922-A9E6-C1318CFE0B27</string>
+	<string>90FBD6DF-8141-4DE3-8E91-726CD5EF1892</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EFBAE37C-8242-4922-A9E6-C1318CFE0B27</string>
+			<string>90FBD6DF-8141-4DE3-8E91-726CD5EF1892</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Projects</string>
+			<string>DEPOL</string>
 		</dict>
 	</array>
 </dict>
