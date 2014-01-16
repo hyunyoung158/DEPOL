@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="fkj-zT-koP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="fkj-zT-koP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -177,6 +177,139 @@
             </objects>
             <point key="canvasLocation" x="1460" y="-251"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ZGk-1k-BQ6">
+            <objects>
+                <viewController id="RT5-PH-Cr2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fRg-ue-Ns2"/>
+                        <viewControllerLayoutGuide type="bottom" id="LYj-wP-pIX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5tK-mu-ZoG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile_edit_project.png" translatesAutoresizingMaskIntoConstraints="NO" id="cT5-7X-FFE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h9d-DX-dWW"/>
+                    <connections>
+                        <segue destination="BCm-8w-EeW" kind="push" id="7CI-Uu-O4F"/>
+                        <segue destination="DID-VA-kRn" kind="push" id="6hJ-O8-Q8y"/>
+                        <segue destination="LZE-2C-Sa0" kind="push" id="ejU-rm-MOu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JT7-Df-PUj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1459" y="371"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gva-hY-IVm">
+            <objects>
+                <viewController id="DID-VA-kRn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aS3-lf-M4l"/>
+                        <viewControllerLayoutGuide type="bottom" id="0db-V6-v4h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tDc-t9-QpA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="follower.png" translatesAutoresizingMaskIntoConstraints="NO" id="usw-81-Xzp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T7R-Cl-ehs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMX-6a-jjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1979" y="622"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BbP-0S-jcy">
+            <objects>
+                <viewController id="LZE-2C-Sa0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XPJ-iu-fQ7"/>
+                        <viewControllerLayoutGuide type="bottom" id="dWr-ZI-RHR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yGo-WO-cXT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="following.png" translatesAutoresizingMaskIntoConstraints="NO" id="gfA-Hc-Vjg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2sk-oP-GLo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RZi-Qp-2Hk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2399" y="634"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mYU-7u-3Xy">
+            <objects>
+                <viewController id="BCm-8w-EeW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="klV-Y5-zeZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="diF-ue-oz8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5rm-V0-CNm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portfolio_upload.png" translatesAutoresizingMaskIntoConstraints="NO" id="DiO-SQ-d1u">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B86-qy-l7j"/>
+                    <connections>
+                        <segue destination="es0-v2-uD3" kind="push" id="ovY-hh-6yg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKI-XF-nsg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2299" y="-10"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xn4-EC-xz0">
+            <objects>
+                <viewController id="es0-v2-uD3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vHL-Vs-arp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Afv-4B-r4u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3DX-QF-eXn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portfolio_upload_picture.png" translatesAutoresizingMaskIntoConstraints="NO" id="cdW-02-L2Z">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yt7-zT-wbF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zS5-v4-9mU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2713" y="-10"/>
+        </scene>
         <!--View Controller - Title-->
         <scene sceneID="jN3-MH-C2m">
             <objects>
@@ -209,7 +342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NLe-83-263" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1460" y="387"/>
+            <point key="canvasLocation" x="1460" y="1043"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qsd-Xx-oQ6">
@@ -234,7 +367,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJn-cQ-gVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2408" y="697"/>
+            <point key="canvasLocation" x="2881" y="1581"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QV8-CV-6bn">
@@ -262,7 +395,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Gh-H9-osL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1459" y="1018"/>
+            <point key="canvasLocation" x="1459" y="1674"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="D4F-Zd-4Xz">
@@ -287,7 +420,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9W-eP-ZF8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1927" y="1018"/>
+            <point key="canvasLocation" x="1927" y="1674"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="A4F-h0-jIt">
@@ -311,7 +444,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cVw-mu-mb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1455" y="1647"/>
+            <point key="canvasLocation" x="1455" y="2303"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gPp-kB-K61">
@@ -335,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JGD-Xf-Pa5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1455" y="2264"/>
+            <point key="canvasLocation" x="1455" y="2920"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WSh-nJ-iUf">
@@ -365,7 +498,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D6T-Bb-PTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1445" y="2901"/>
+            <point key="canvasLocation" x="1445" y="3557"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="A3C-DA-hv4">
@@ -390,7 +523,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0d-IM-kC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2369" y="2763"/>
+            <point key="canvasLocation" x="2369" y="3419"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="K8k-zM-Gm8">
@@ -415,7 +548,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i0A-5g-P02" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2369" y="3372"/>
+            <point key="canvasLocation" x="2369" y="4028"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VBk-Wh-vAq">
@@ -440,7 +573,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdC-Sd-Spd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1976" y="2901"/>
+            <point key="canvasLocation" x="1976" y="3557"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pvA-LU-oyg">
@@ -489,7 +622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYh-D2-gyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2402" y="47"/>
+            <point key="canvasLocation" x="2881" y="1003"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oRJ-nM-orh">
@@ -507,7 +640,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="riZ-Ly-B8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006" y="387"/>
+            <point key="canvasLocation" x="1006" y="1043"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kv7-Yx-32D">
@@ -525,7 +658,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yf6-M9-qjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933" y="1018"/>
+            <point key="canvasLocation" x="933" y="1674"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Sw-dx-OXk">
@@ -543,11 +676,31 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oN4-2N-uBt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="919" y="2901"/>
+            <point key="canvasLocation" x="919" y="3557"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BL6-Yt-JQl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="cBX-Ov-Oy0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U5C-pc-cp5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RT5-PH-Cr2" kind="relationship" relationship="rootViewController" id="DYY-jZ-dAe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89Z-jA-12O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="371"/>
         </scene>
     </scenes>
     <resources>
         <image name="first.png" width="196" height="328"/>
+        <image name="follower.png" width="193" height="328"/>
+        <image name="following.png" width="194" height="329"/>
         <image name="invite.png" width="195" height="331"/>
         <image name="join.png" width="195" height="332"/>
         <image name="like.png" width="195" height="333"/>
@@ -557,6 +710,9 @@
         <image name="main_right.png" width="193" height="329"/>
         <image name="message_detail.png" width="193" height="333"/>
         <image name="message_inbox.png" width="192" height="362"/>
+        <image name="portfolio_upload.png" width="197" height="333"/>
+        <image name="portfolio_upload_picture.png" width="190" height="315"/>
+        <image name="profile_edit_project.png" width="165" height="283"/>
         <image name="recruit_detail.png" width="195" height="331"/>
         <image name="recruit_write.png" width="196" height="328"/>
         <image name="recrurit.png" width="194" height="331"/>

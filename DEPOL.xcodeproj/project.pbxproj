@@ -28,6 +28,7 @@
 		00ABADC8187FE8D40082D5A1 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABADC7187FE8D40082D5A1 /* Cell.m */; };
 		00D5655D1883C8A000653B8D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D5655C1883C8A000653B8D /* libsqlite3.dylib */; };
 		00D5655F1883CBE100653B8D /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00D5655E1883CBE100653B8D /* db.sqlite */; };
+		00DE6FCC188766CF00AA24E9 /* profile_edit_project.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DE6FCB188766CF00AA24E9 /* profile_edit_project.png */; };
 		8B39AEB11886E48100B04F72 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B39AE971886E48100B04F72 /* first.png */; };
 		8B39AEB21886E48100B04F72 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B39AE981886E48100B04F72 /* main.png */; };
 		8B39AEB31886E48100B04F72 /* main_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B39AE991886E48100B04F72 /* main_left.png */; };
@@ -100,6 +101,7 @@
 		00ABADC7187FE8D40082D5A1 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		00D5655C1883C8A000653B8D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		00D5655E1883CBE100653B8D /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
+		00DE6FCB188766CF00AA24E9 /* profile_edit_project.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_edit_project.png; sourceTree = "<group>"; };
 		8B39AE971886E48100B04F72 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		8B39AE981886E48100B04F72 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
 		8B39AE991886E48100B04F72 /* main_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_left.png; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				8B39AE9F1886E48100B04F72 /* follower.png */,
 				8B39AEA01886E48100B04F72 /* following.png */,
 				8B39AEA11886E48100B04F72 /* profile_edit.png */,
+				00DE6FCB188766CF00AA24E9 /* profile_edit_project.png */,
 				8B39AEA21886E48100B04F72 /* profile_edit_camera.png */,
 				8B39AEA31886E48100B04F72 /* profile_edit_info.png */,
 				8B39AEA41886E48100B04F72 /* profile_edit_info2.png */,
@@ -372,6 +375,7 @@
 				8B39AEB11886E48100B04F72 /* first.png in Resources */,
 				8B39AEBD1886E48100B04F72 /* profile_edit_info.png in Resources */,
 				8B39AEC01886E48100B04F72 /* recrurit.png in Resources */,
+				00DE6FCC188766CF00AA24E9 /* profile_edit_project.png in Resources */,
 				8B39AEBC1886E48100B04F72 /* profile_edit_camera.png in Resources */,
 				8B39AEC41886E48100B04F72 /* message_detail.png in Resources */,
 				8B39AEB31886E48100B04F72 /* main_left.png in Resources */,
